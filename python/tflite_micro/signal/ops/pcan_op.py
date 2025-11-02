@@ -14,8 +14,8 @@
 # ==============================================================================
 
 import tensorflow as tf
-from tflite_micro.python.tflite_micro.signal.utils import util
-from tflite_micro.python.tflite_micro.signal.utils import wide_dynamic_func_lut_wrapper
+from tfl.python.tflite_micro.signal.utils import util
+from tfl.python.tflite_micro.signal.utils import wide_dynamic_func_lut_wrapper
 
 gen_pcan_op = util.load_custom_op("pcan_op.so")
 
