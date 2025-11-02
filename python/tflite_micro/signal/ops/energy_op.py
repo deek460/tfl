@@ -15,7 +15,7 @@
 """Use energy op in python."""
 
 import tensorflow as tf
-from tflite_micro.python.tflite_micro.signal.utils import util
+from tfl.python.tflite_micro.signal.utils import util
 
 gen_energy_op = util.load_custom_op('energy_op.so')
 
