@@ -16,7 +16,7 @@
 
 import math
 import tensorflow as tf
-from tflite_micro.python.tflite_micro.signal.utils import util
+from tfl.python.tflite_micro.signal.utils import util
 
 gen_fft_ops = util.load_custom_op('fft_ops.so')
 
