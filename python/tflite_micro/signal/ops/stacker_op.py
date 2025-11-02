@@ -15,7 +15,7 @@
 """Use stacker op in python."""
 
 import tensorflow as tf
-from tflite_micro.python.tflite_micro.signal.utils import util
+from tfl.python.tflite_micro.signal.utils import util
 
 gen_stacker_op = util.load_custom_op('stacker_op.so')
 
