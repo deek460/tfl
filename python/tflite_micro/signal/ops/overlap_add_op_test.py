@@ -18,8 +18,8 @@ from absl.testing import parameterized
 import numpy as np
 import tensorflow as tf
 
-from tflite_micro.python.tflite_micro.signal.ops import overlap_add_op
-from tflite_micro.python.tflite_micro.signal.utils import util
+from tfl.python.tflite_micro.signal.ops import overlap_add_op
+from tfl.python.tflite_micro.signal.utils import util
 
 
 class OverlapAddOpTest(parameterized.TestCase, tf.test.TestCase):
