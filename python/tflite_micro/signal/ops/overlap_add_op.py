@@ -15,7 +15,7 @@
 """Use overlap add op in python."""
 
 import tensorflow as tf
-from tflite_micro.python.tflite_micro.signal.utils import util
+from tfl_micro.python.tflite_micro.signal.utils import util
 
 gen_overlap_add_op = util.load_custom_op('overlap_add_op.so')
 
