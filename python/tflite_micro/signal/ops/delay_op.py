@@ -15,7 +15,7 @@
 """Use overlap add op in python."""
 
 import tensorflow as tf
-from tflite_micro.python.tflite_micro.signal.utils import util
+from tfl.python.tflite_micro.signal.utils import util
 
 gen_delay_op = util.load_custom_op('delay_op.so')
 
