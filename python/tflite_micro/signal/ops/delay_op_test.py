@@ -17,8 +17,8 @@
 import numpy as np
 import tensorflow as tf
 
-from tflite_micro.python.tflite_micro.signal.ops import delay_op
-from tflite_micro.python.tflite_micro.signal.utils import util
+from tfl.python.tflite_micro.signal.ops import delay_op
+from tfl.python.tflite_micro.signal.utils import util
 
 
 class DelayOpTest(tf.test.TestCase):
