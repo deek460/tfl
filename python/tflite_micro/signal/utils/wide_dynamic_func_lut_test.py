@@ -14,7 +14,7 @@
 # ==============================================================================
 """Tests for signal.python.utils.wide_dynamic_func_lut"""
 import unittest
-from tflite_micro.python.tflite_micro.signal.utils import wide_dynamic_func_lut_wrapper
+from tfl.python.tflite_micro.signal.utils import wide_dynamic_func_lut_wrapper
 
 
 class WideDynamicFuncLutTest(unittest.TestCase):
