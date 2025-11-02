@@ -17,8 +17,8 @@
 import numpy as np
 import tensorflow as tf
 
-from tflite_micro.python.tflite_micro.signal.utils import util
-from tflite_micro.python.tflite_micro.signal.utils.freq_to_mel_wrapper import freq_to_mel
+from tfl.python.tflite_micro.signal.utils import util
+from tfl.python.tflite_micro.signal.utils.freq_to_mel_wrapper import freq_to_mel
 
 gen_filter_bank_ops = util.load_custom_op('filter_bank_ops.so')
 
