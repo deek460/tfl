@@ -16,7 +16,7 @@
 import tensorflow as tf
 from tensorflow.python.framework import load_library
 from tensorflow.python.platform import resource_loader
-from tflite_micro.python.tflite_micro import runtime
+from tfl.python.tflite_micro import runtime
 
 
 # TODO(b/286889497): find better name and place for this function.
