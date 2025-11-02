@@ -19,8 +19,8 @@ import numpy as np
 import tensorflow as tf
 
 from tensorflow.python.platform import resource_loader
-from tflite_micro.python.tflite_micro.signal.ops import fft_ops
-from tflite_micro.python.tflite_micro.signal.utils import util
+from tfl.python.tflite_micro.signal.ops import fft_ops
+from tfl.python.tflite_micro.signal.utils import util
 
 
 class RfftOpTest(tf.test.TestCase):
